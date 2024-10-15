@@ -11,8 +11,8 @@ import org.springframework.test.context.ActiveProfiles;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@ActiveProfiles("wstest")
-class WsTracingApplicationTestsWithWs {
+@ActiveProfiles("test")
+class WsTracingApplicationTestsNoWsTest {
 
 	@LocalServerPort
 	private int port;
