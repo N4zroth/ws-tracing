@@ -1,0 +1,1 @@
+Both tests should succeed, but only one does because the existence of a WsConfigurerAdapter with a (direct or transitive, doesn't matter) dependency to ObservationRegistry somehow prevents post-processing of said ObservationRegistry.
